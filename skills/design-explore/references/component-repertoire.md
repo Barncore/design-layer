@@ -20,6 +20,8 @@ The dedicated collections provide more specific search cues. These are examples 
 
 Their design value depends on how they change perception, attention, atmosphere or interaction in this project. Consider expressive treatments alongside composition, typography and content, rather than decorating a finished generic layout by category. The agent owns these choices; this index is not a questionnaire for the user.
 
+For material behaviour, spatial interaction, image smearing, chromatic fringing and rendering choices including WebGL and Three.js, read [expressive-interaction.md](expressive-interaction.md).
+
 ## Using reference catalogues
 
 Use 21st.dev as an optional source of current examples, previews and implementation references. Browser access is enough for discovery; this reference does not require its skill, MCP or packages. Search when a concrete example would improve an idea or answer an implementation question. Extend the search beyond this provider when appropriate.

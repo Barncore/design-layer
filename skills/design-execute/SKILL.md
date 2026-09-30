@@ -21,6 +21,7 @@ Read [frontend-mechanics.md](references/frontend-mechanics.md) for frontend work
 
 Load additional references only when relevant:
 
+- [expressive-interaction.md](../design-explore/references/expressive-interaction.md) when implementing a defining spatial, material or experimental interaction, including shader and 3D effects.
 - [concept-fidelity.md](references/concept-fidelity.md) to implement an approved visual concept without losing its defining relationships.
 - [component-repertoire.md](../design-explore/references/component-repertoire.md) when a component or effect reference would help realise the brief.
 - [transformations.md](references/transformations.md) to interpret feedback such as bolder, quieter or more distinctive.

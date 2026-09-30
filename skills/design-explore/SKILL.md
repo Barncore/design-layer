@@ -11,7 +11,7 @@ Read the current project brief (`DESIGN-BRIEF.md` or its established path) when 
 
 For the visual interpretation that opens round three of the intent interview, use [visual-understanding.md](../design-router/references/visual-understanding.md). Its purpose is to check the understanding behind a direction before treating a concept as a build target.
 
-When broadening web or app ideas, consult [component-repertoire.md](references/component-repertoire.md) for component and effect families and optional reference catalogues.
+When broadening web or app ideas, consult [component-repertoire.md](references/component-repertoire.md) for component and effect families and optional reference catalogues. When experimental interaction, spatial or material behaviour, or expressive motion could define the experience, read [expressive-interaction.md](references/expressive-interaction.md) while developing the concept; the user need not name a technique first.
 
 ## Mode A: concept exploration
 

@@ -25,6 +25,12 @@ A separate static HTML live-edit flow was exercised. Minified markup exposed ove
 
 These are summarized development observations, not a published benchmark or exhaustive browser/framework test suite. The private pilot workspace is not distributed. The operating limits are retained in the [detector adapter](../skills/design-audit/references/impeccable-adapter.md) and [live workflow](../skills/design-live/references/live-workflow.md).
 
+## Bounded interaction planning check
+
+An October 2026 read-only model pass used the expressive interaction guidance for three briefs: an immersive photography exhibition, scoped feedback in a frequent-use invoicing interface, and a music browser explicitly requesting pervasive expressive motion with an existing Three.js dependency and no new libraries. The plans differentiated their motion and rendering choices while retaining the stated constraints.
+
+This checks reference retrieval and planning in a small set of cases. It does not establish an improvement over the previous instructions, rendered quality, accessibility or device performance. No UI was built for this check.
+
 ## Limits that remain
 
 - The three-round interview is a collaboration default, not an experimentally optimized question count.

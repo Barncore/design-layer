@@ -57,6 +57,8 @@ These choices aim to reduce premature convergence, generic styling and accumulat
 
 Fine craft, transformation and native-platform references expand what the agent can consider when the brief calls for it. They do not apply every technique to every project. The 21st.dev reference supplies category names and links for discovery; no component implementation is bundled or mandated.
 
+The expressive interaction reference is Design Layer-authored decision guidance connecting material and spatial intent to rendering techniques. It links MDN and Three.js documentation for technical implementation; it bundles no graphics library, example code or third-party visual identity.
+
 The optional Impeccable adapter translates tool output into Design Layer's review categories. The underlying executable remains unmodified. A separate local live-edit workflow checks source spans, preserves recoverable snapshots and documents the boundaries of the Windows pilot.
 
 ## Publication boundary

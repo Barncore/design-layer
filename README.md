@@ -14,6 +14,7 @@ The intended result is distinctive work suited to its brief, with fewer late cor
 - **The brief stays alive.** Confirmed intent, provisional interpretations, reasons and open choices live in one evolving document instead of competing chat summaries.
 - **Visuals test understanding.** An image can expose an assumption the conversation missed. Agreement with its feeling does not automatically approve every pictured font, colour or layout.
 - **Craft follows the project.** Composition, type, motion and imagery develop a coherent character. A favourite style from another project remains contextual evidence.
+- **Interaction has an expressive repertoire.** When the brief calls for it, exploration connects material and spatial qualities to techniques such as deformation, image smearing, chromatic fringing and shader effects. Execution considers CSS/SVG, Canvas, WebGL and Three.js according to the intended behaviour. These are optional approaches, not installed dependencies.
 - **Review separates different kinds of claims.** A broken keyboard flow is a defect. A glow or asymmetrical composition is a design choice to evaluate in context. Automated warnings do not get to decide the project's aesthetic.
 - **Feedback can inform later work without becoming dogma.** Explicit reactions are recorded with their scope and reasons. Broader preferences remain proposals for the user to approve.
 

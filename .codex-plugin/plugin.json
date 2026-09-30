@@ -1,6 +1,6 @@
 {
   "name": "design-layer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A project-led design workflow for Codex: discover intent, explore directions, build, review and learn from explicit feedback.",
   "license": "Apache-2.0",
   "keywords": [
