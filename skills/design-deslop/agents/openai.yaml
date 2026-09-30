@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Deslop"
+  short_description: "Remove code and copy cruft without flattening craft"
+  default_prompt: "Use $design-deslop to remove introduced cruft while preserving intentional craft."
+policy:
+  allow_implicit_invocation: false

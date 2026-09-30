@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-08-06",
+  "sources": [
+    {
+      "name": "anthropic-frontend-design",
+      "repository": "https://github.com/anthropics/skills",
+      "commit": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
+      "license": "Apache-2.0",
+      "mode": "mechanics-adapted"
+    },
+    {
+      "name": "emilkowalski-skills",
+      "repository": "https://github.com/emilkowalski/skills",
+      "commit": "de33dbed000212b54400a33767d1e4d03654db2a",
+      "license": "MIT",
+      "mode": "mechanics-adapted"
+    },
+    {
+      "name": "jakubkrehel-skills",
+      "repository": "https://github.com/jakubkrehel/skills",
+      "commit": "a67333399dabbc71d7778962cb9c4fb9b86a00d0",
+      "license": "MIT",
+      "mode": "mechanics-adapted"
+    },
+    {
+      "name": "vercel-agent-skills",
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "commit": "7c180d9044c9ae2b442b567aad4e42a28dd5ed62",
+      "license": "MIT",
+      "mode": "reference-influence",
+      "licenseEvidence": "MIT declared in the README at the recorded commit; no standalone licence file there."
+    },
+    {
+      "name": "impeccable",
+      "repository": "https://github.com/pbakaus/impeccable",
+      "commit": "a075d89bdbe60b2b00220cb0527fb5091e84215e",
+      "packageVersion": "3.5.0",
+      "license": "Apache-2.0",
+      "mode": "optional-json-adapter"
+    },
+    {
+      "name": "impeccable-windows-engine",
+      "package": "@impeccable/cli-windows-x64",
+      "packageVersion": "0.1.5",
+      "binaryReportedVersion": "4.0.0",
+      "binarySha256": "477e544fc8880a5e82e427490cb9a5f5adab480c0e02966d33fd50772b531c71",
+      "license": "Apache-2.0",
+      "mode": "bundled-unmodified-engine",
+      "provenance": "runtime/impeccable/provenance.json"
+    }
+  ],
+  "updatedAt": "2026-10-01"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Execute"
+  short_description: "Build intentional interfaces from an approved brief"
+  default_prompt: "Use $design-execute to build this interface from the approved design brief."
+policy:
+  allow_implicit_invocation: false

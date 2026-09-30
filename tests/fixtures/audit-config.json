@@ -1,0 +1,13 @@
+{
+  "audit": {
+    "impeccable": {
+      "overrides": {
+        "gradient-text": {
+          "disposition": "approved",
+          "reason": "Approved title treatment for this campaign",
+          "sourceRef": "DESIGN.md#campaign-title-treatment"
+        }
+      }
+    }
+  }
+}

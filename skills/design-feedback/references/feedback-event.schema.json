@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.design-layer/schemas/feedback-event.schema.json",
+  "title": "Design Layer feedback event",
+  "type": "object",
+  "required": ["projectId", "artifactId", "eventType", "decision", "scope", "confidence", "evidence", "provenance"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "eventId": {"type": "string", "minLength": 8},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "projectId": {"type": "string", "minLength": 1},
+    "artifactId": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "minLength": 1},
+    "eventType": {"enum": ["selection", "rejection", "rating", "reaction", "correction"]},
+    "decision": {"type": "string", "minLength": 1},
+    "scope": {"enum": ["artifact", "project", "domain", "global", "unknown"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "evidence": {"type": "string", "minLength": 1},
+    "provenance": {
+      "type": "object",
+      "required": ["source", "captureMode"],
+      "properties": {
+        "source": {"enum": ["user", "imported-user-record", "correction"]},
+        "captureMode": {"enum": ["verbatim", "paraphrase", "structured-selection"]},
+        "sourceRef": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "invariants": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "axis": {"type": "string"},
+    "selected": {"type": ["string", "null"]},
+    "rejected": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "signal": {
+      "type": "object",
+      "required": ["key", "value", "polarity"],
+      "properties": {
+        "key": {"type": "string", "minLength": 1},
+        "value": {"type": "string", "minLength": 1},
+        "polarity": {"enum": ["support", "contradict"]}
+      },
+      "additionalProperties": false
+    },
+    "correctsEventId": {"type": "string"}
+  },
+  "additionalProperties": false
+}

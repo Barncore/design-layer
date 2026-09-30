@@ -1,0 +1,14 @@
+{
+  "eventId": "fixture-correction-0001",
+  "projectId": "fixture-d",
+  "artifactId": "reader-layout",
+  "eventType": "correction",
+  "decision": "Corrected the initial selection after reading a long article.",
+  "scope": "project",
+  "confidence": 0.95,
+  "evidence": "Compact works for dashboards, but I do not want it for longform reading.",
+  "provenance": {"source": "correction", "captureMode": "verbatim"},
+  "axis": "information-density",
+  "signal": {"key": "information-density", "value": "compact-but-legible", "polarity": "contradict"},
+  "correctsEventId": "fixture-support-0001"
+}

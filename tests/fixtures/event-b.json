@@ -1,0 +1,14 @@
+{
+  "projectId": "fixture-b",
+  "artifactId": "library-layout",
+  "eventType": "selection",
+  "decision": "Preferred the compact library layout.",
+  "scope": "project",
+  "confidence": 0.8,
+  "evidence": "This version uses the space better.",
+  "provenance": {"source": "user", "captureMode": "verbatim"},
+  "axis": "information-density",
+  "selected": "compact",
+  "rejected": ["spacious"],
+  "signal": {"key": "information-density", "value": "compact-but-legible", "polarity": "support"}
+}

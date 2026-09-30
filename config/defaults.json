@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "taste": {
+    "primary": null,
+    "fallback": null,
+    "readOnly": true
+  },
+  "feedback": {
+    "promotionThreshold": 3,
+    "minimumConfidence": 0.75
+  },
+  "audit": {
+    "impeccable": {
+      "enabled": false,
+      "autoDownload": false
+    }
+  }
+}

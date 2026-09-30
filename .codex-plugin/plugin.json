@@ -1,0 +1,25 @@
+{
+  "name": "design-layer",
+  "version": "0.3.0",
+  "description": "A project-led design workflow for Codex: discover intent, explore directions, build, review and learn from explicit feedback.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "design",
+    "frontend",
+    "ui",
+    "ux",
+    "accessibility",
+    "taste"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Design Layer",
+    "shortDescription": "From project intent to distinctive, usable design",
+    "longDescription": "Eight focused skills connect project discovery, visual interpretation, implementation, objective checks, aesthetic critique and explicit feedback. Optional personal preferences remain external.",
+    "category": "Productivity",
+    "capabilities": [
+      "skills"
+    ],
+    "defaultPrompt": "Use $design-router to interpret this visible-artifact task, load the right design context, and route it to the smallest suitable specialist."
+  }
+}

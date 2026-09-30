@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Router"
+  short_description: "Route visible-artifact work with taste context"
+  default_prompt: "Use $design-router to interpret and route this visible-artifact task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+{
+  "eventId": "fixture-support-0001",
+  "projectId": "fixture-d",
+  "artifactId": "reader-layout",
+  "eventType": "selection",
+  "decision": "Initially selected the compact reader.",
+  "scope": "project",
+  "confidence": 0.9,
+  "evidence": "The compact version looks better at first glance.",
+  "provenance": {"source": "user", "captureMode": "verbatim"},
+  "axis": "information-density",
+  "signal": {"key": "information-density", "value": "compact-but-legible", "polarity": "support"}
+}

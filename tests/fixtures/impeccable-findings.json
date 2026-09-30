@@ -1,0 +1,30 @@
+[
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast",
+    "description": "Text contrast is below the required threshold.",
+    "severity": "error",
+    "file": "src/card.css",
+    "line": 12,
+    "snippet": "2.1:1"
+  },
+  {
+    "antipattern": "gradient-text",
+    "name": "Gradient text",
+    "description": "Gradient text may be an AI design trope.",
+    "severity": "warning",
+    "file": "src/hero.css",
+    "line": 4,
+    "snippet": "background-clip: text"
+  },
+  {
+    "antipattern": "em-dash-overuse",
+    "name": "Em dash overuse",
+    "description": "Advisory copy pattern.",
+    "severity": "warning",
+    "advisory": true,
+    "file": "src/Hero.tsx",
+    "line": 18,
+    "snippet": "three em dashes"
+  }
+]

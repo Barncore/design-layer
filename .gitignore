@@ -1,0 +1,23 @@
+# Local project context and preference evidence
+/.design-layer/
+/.impeccable/
+/.codex/
+/PRODUCT.md
+/DESIGN.md
+/DESIGN-BRIEF.md
+/TASTE.md
+
+# Secrets, local configuration and generated output
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+__pycache__/
+*.pyc
+coverage/
+test-results/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Explore"
+  short_description: "Explore concepts and controlled design variants"
+  default_prompt: "Use $design-explore to generate comparable design directions or calibrated variants."
+policy:
+  allow_implicit_invocation: false

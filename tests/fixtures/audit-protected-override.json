@@ -1,0 +1,13 @@
+{
+  "audit": {
+    "impeccable": {
+      "overrides": {
+        "low-contrast": {
+          "disposition": "approved",
+          "reason": "Intentional low contrast",
+          "sourceRef": "DESIGN.md#campaign-title-treatment"
+        }
+      }
+    }
+  }
+}

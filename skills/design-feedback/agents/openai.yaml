@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Feedback"
+  short_description: "Record feedback and propose taste-model updates"
+  default_prompt: "Use $design-feedback to record this design decision and update project evidence."
+policy:
+  allow_implicit_invocation: false

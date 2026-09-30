@@ -1,0 +1,15 @@
+{
+  "projectId": "fixture-a",
+  "artifactId": "settings-density",
+  "eventType": "selection",
+  "decision": "Selected the compact variant.",
+  "scope": "project",
+  "confidence": 0.9,
+  "evidence": "I prefer the compact one; it feels clearer without becoming cramped.",
+  "provenance": {"source": "user", "captureMode": "paraphrase"},
+  "invariants": ["content", "type scale", "interaction model"],
+  "axis": "information-density",
+  "selected": "compact",
+  "rejected": ["airy", "dense"],
+  "signal": {"key": "information-density", "value": "compact-but-legible", "polarity": "support"}
+}

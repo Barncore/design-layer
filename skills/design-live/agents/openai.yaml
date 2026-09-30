@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Live"
+  short_description: "Compare scoped design edits in a local browser"
+  default_prompt: "Use $design-live to compare edits to this local interface in the browser."

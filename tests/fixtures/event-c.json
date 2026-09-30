@@ -1,0 +1,12 @@
+{
+  "projectId": "fixture-c",
+  "artifactId": "dashboard-layout",
+  "eventType": "reaction",
+  "decision": "Supported a compact layout with clear grouping.",
+  "scope": "domain",
+  "confidence": 0.85,
+  "evidence": "Dense is fine when the hierarchy stays obvious.",
+  "provenance": {"source": "user", "captureMode": "verbatim"},
+  "axis": "information-density",
+  "signal": {"key": "information-density", "value": "compact-but-legible", "polarity": "support"}
+}

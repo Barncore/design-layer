@@ -1,0 +1,12 @@
+{
+  "eventId": "fixture-correction-orphan",
+  "projectId": "fixture-d",
+  "artifactId": "unknown-artifact",
+  "eventType": "correction",
+  "decision": "Attempted orphan correction.",
+  "scope": "project",
+  "confidence": 0.8,
+  "evidence": "This should be rejected because the original event does not exist.",
+  "provenance": {"source": "correction", "captureMode": "paraphrase"},
+  "correctsEventId": "missing-event-0001"
+}
