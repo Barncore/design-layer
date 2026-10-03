@@ -32,6 +32,10 @@ Adaptations narrow the sources to the current brief, separate subjective advice 
 
 `runtime/impeccable/engine/` contains the unmodified `@impeccable/cli-windows-x64` package version `0.1.5`. The executable reports version `4.0.0`; those are different labels, both retained rather than reconciled by assumption. The package's [licence](runtime/impeccable/engine/LICENSE), metadata and file hashes are included. [Provenance](runtime/impeccable/provenance.json) records registry integrity and the exact executable hash. The launcher and finding adapter are Design Layer code.
 
+## Original field guide synthesis
+
+The 86-parameter field guide is Design Layer-authored synthesis with links to 44 public sources and examples. Its [source guide](skills/design-router/references/design-parameters/sources.md) distinguishes practitioner accounts, creator examples, research and technical guidance. The package includes original descriptions and reference metadata, not source articles, media, fonts or third-party implementations. Attribution of a reference does not imply author endorsement or permission to redistribute that source's assets.
+
 ## Linked reference material
 
 Rauno Freiberg's [interaction design guidance](https://rauno.me/craft/interaction-design), Apple and Android documentation, and the 21st.dev catalogue are linked references. No catalogue component code, downloaded image collection or upstream platform skill pack is included. Check the licence of any implementation subsequently retrieved from those sources.

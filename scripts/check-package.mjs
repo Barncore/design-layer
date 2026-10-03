@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {checkDesignParameters} from './check-design-parameters.mjs';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -55,4 +56,6 @@ for (const file of files(root).filter(file => file.endsWith('.md'))) {
 }
 assert.ok(fs.existsSync(path.join(root,'LICENSE')));
 assert.ok(fs.existsSync(path.join(root,'NOTICE.md')));
+const fieldGuide = checkDesignParameters(root);
+console.log(`Field guide OK: ${fieldGuide.parameters} parameters, ${fieldGuide.domains} domains, ${fieldGuide.sources} sources, routed from four skills.`);
 console.log(`Package OK: ${actual.length} skills, ${links} local links, neutral preferences, matching manifests and pinned engine hashes.`);

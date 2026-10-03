@@ -55,6 +55,10 @@ The following is the project's orchestration and collaboration design, developed
 
 These choices aim to reduce premature convergence, generic styling and accumulated misunderstandings. They are design intentions, not experimentally established superiority claims. The three-round interview and question range are collaboration defaults, not a universal optimum.
 
+## Field guide integration
+
+The 0.5.0 package incorporates the full original 2026-09-20 field guide: 86 synthesis parameters in twelve domains and 44 public reference links. Earlier craft references covered some related ideas, but did not package this complete catalogue. Personal preference questions were translated into project-decision guidance, preserving alternatives and mechanisms. The original source hash and stable IDs are retained in the [coverage manifest](../skills/design-router/references/design-parameters/manifest.json). The parameter set is not a published taxonomy, an empirical quality scale or evidence of a user's taste. The original interactive experiments, reactions and media previews remain outside the public package.
+
 ## Added repertoire and adapters
 
 Fine craft, transformation and native-platform references expand what the agent can consider when the brief calls for it. They do not apply every technique to every project. The 21st.dev reference supplies category names and links for discovery; no component implementation is bundled or mandated.

@@ -13,6 +13,8 @@ For the visual interpretation that opens round three of the intent interview, us
 
 When broadening web or app ideas, consult [component-repertoire.md](references/component-repertoire.md) for component and effect families and optional reference catalogues. When experimental interaction, spatial or material behaviour, or expressive motion could define the experience, read [expressive-interaction.md](references/expressive-interaction.md) while developing the concept; the user need not name a technique first.
 
+Before developing or calibrating a direction, use the [design parameter field guide](../design-router/references/design-parameters.md) to choose the dimensions that matter to this brief. Load their domain references and combine choices into the concept or comparison; use project-specific reasons rather than a recurring aesthetic recipe.
+
 ## Mode A: concept exploration
 
 Use when the direction itself is unsettled. Develop a strong direction and add contrasting concepts when they help resolve a real choice or the user requests alternatives. Concepts should differ in underlying visual and interaction logic, not just color.

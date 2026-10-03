@@ -93,6 +93,10 @@ Testing has covered helper behavior, package structure and a bounded Windows det
 
 There is no bundled MCP server, API key, hook or automatic dependency installer. Normal host subscriptions, image-tool access and project dependencies remain separate.
 
+## Design parameter field guide
+
+The plugin includes an [86-parameter field guide](skills/design-router/references/design-parameters.md) across composition, spacing, typography, colour, imagery, material, motion, interaction, navigation, narrative, generative rules and adaptation. Exploration, execution and critique use the relevant domains to make project-specific choices. It is the agent's working repertoire, not a taste questionnaire or a fixed visual recipe. All 44 public source references are retained; no personal reactions or remote media are bundled.
+
 ## Additional craft references
 
 Palette and theme work can use OKLCH, gamut and semantic-role guidance. Gesture work can use direct manipulation and velocity-aware settling. Exploration can compare full-size interactive variants and use motion vocabulary to interpret reference effects. Selected User Interface Wiki principles cover measured containers, exit lifecycles, optional sound, prefetching and icon/type details. Each reference loads only when relevant; no additional skill pack or extraction tool is installed by these instructions.

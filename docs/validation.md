@@ -11,7 +11,7 @@ node scripts/check-package.mjs
 node --test tests/public-release.test.mjs
 ```
 
-The package check validates manifest agreement, the eight skill entrypoints, local Markdown links, neutral preference defaults, and pinned runtime hashes. The tests use synthetic fixtures and temporary directories. They exercise clean context resolution, preserving existing project context, append-only corrections, promotion evidence and protected detector dispositions. No test needs a personal preference profile or live project.
+The package check validates manifest agreement, the eight skill entrypoints, local Markdown links, neutral preference defaults, and pinned runtime hashes. It also checks all 86 field-guide parameters, twelve domains, 44 source targets and direct retrieval routes from router, exploration, execution and critique. The tests use synthetic fixtures and temporary directories. They exercise clean context resolution, preserving existing project context, append-only corrections, promotion evidence and protected detector dispositions. Field-guide regression cases remove a parameter and disconnect an execution route to verify that incomplete packaging fails. No test needs a personal preference profile or live project.
 
 GitHub Actions runs these portable checks on Windows, macOS and Linux. A passing result on those systems covers the helpers; it does not make the Windows executable portable or prove end-to-end creative quality.
 
@@ -36,6 +36,12 @@ This checks reference retrieval and planning in a small set of cases. It does no
 The 0.4.0 references received an independent read-only planning pass on three synthetic requests: improve an existing HSL dashboard's dark theme without migration; compare crisp and elastic swipeable sheets at realistic size; and diagnose a notification's lingering hit target and animated-height jitter. The pass retrieved the intended references, retained the existing system, and distinguished gesture, measurement and exit-lifecycle concerns. It found no material routing failure in those cases.
 
 This is bounded retrieval and planning evidence, not a built prototype, measured contrast result, runtime repair or proof of better design judgment. Package checks and the existing helper tests remain separate from those claims.
+
+## Field guide retrieval check
+
+The 0.5.0 integration received an independent planning pass on three synthetic briefs: a distinctive experimental-book archive, a scoped dashboard translation fix and a description-based critique of a self-paced science explainer. Exploration, execution and critique retrieved the relevant parameter domains and used them to make brief-specific decisions. The pass did not ask the user to rate parameters, infer private taste, or turn the scoped fix into a redesign. Its actual reference reads and outputs were inspected.
+
+The structural check separately verifies all 86 parameters and 44 sources. The planning cases do not exercise every dimension or establish rendered quality, accessibility, learning outcomes or general creative improvement.
 
 ## Limits that remain
 

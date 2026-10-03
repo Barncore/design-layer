@@ -10,6 +10,8 @@ A new website or app direction can enter the intent interview. The user describe
 
 `design-explore` can develop concepts or vary a single aspect of an established direction. Comparable fidelity matters: a polished option should not win merely because its alternative was presented poorly. The agent recommends based on the brief and the remaining uncertainty.
 
+The shared [parameter field guide](../skills/design-router/references/design-parameters.md) makes the research repertoire available inside the package. Its index routes to twelve domain files containing all 86 stable parameter IDs, alternatives, mechanisms and project-decision guidance. Router, exploration, execution and critique link to it directly, and intent discovery uses it for the agent's creative translation. Domain files connect to the more specialised craft references. Package checks verify completeness and local reachability; the original research folder is not a runtime dependency.
+
 ## From a direction to working design
 
 `design-execute` preserves the approved system and implements the relevant states and interactions. Supporting references supply mechanisms when they help: typography, composition, motion, platform adaptation and fine craft. The model still decides how to apply them.
@@ -47,3 +49,9 @@ The context and feedback helpers use Node's standard library. Browser inspection
 `design-live` runs a local editing helper only for an authorized live-edit task. It can inject temporary browser-selection controls and scaffold variants in source. The workflow therefore requires a recoverable snapshot and cleanup checks. It is not intended for deployed sites.
 
 See [configuration](configuration.md) for exact file locations and [validation](validation.md) for what has actually been tested.
+
+## Maintaining the parameter library
+
+The canonical installed content is `skills/design-router/references/design-parameters.md` plus its `design-parameters/` domain files and source guide. Edit the relevant domain's alternatives, mechanism and brief-led decision guidance together. Keep stable parameter IDs and update `manifest.json` deliberately when catalogue structure changes; the original 86 IDs are the integration baseline. The source hash records provenance, not a file that must exist on an installer's machine.
+
+`scripts/check-design-parameters.mjs` is called by the ordinary package check. It checks IDs, required content fields, source anchors, the index's domain links and the four skill entrypoint routes. The regression tests deliberately remove a parameter and disconnect execution to ensure those failures are caught. These checks preserve availability and completeness; they do not judge the quality of creative choices.

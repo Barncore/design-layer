@@ -10,7 +10,7 @@ Use three rounds as the normal shape for developing a new creative direction: di
 
 Discover both the project's practical purpose and the material that could make its expression distinctive. Explore the audience's circumstances, the project's ambitions and beliefs, its particular approach, meaningful stories, tensions and intended experience. Follow interesting details that could generate creative possibilities, even when the basic requirements are clear. Resolving uncertainty is one reason to ask a question; opening a promising line of thought is another.
 
-Digest the answers together. Consider how the underlying priorities and distinctive qualities could influence hierarchy, composition, typography, imagery, colour, interaction, vibe and motion. An individual adjective does not determine a visual treatment.
+Digest the answers together. Consider how the underlying priorities and distinctive qualities could influence hierarchy, composition, typography, imagery, colour, interaction, vibe and motion. An individual adjective does not determine a visual treatment. Use the relevant domains of the [design parameter field guide](design-parameters.md) to develop that creative translation internally; keep interview questions about the project rather than asking the user to specify parameter settings.
 
 Develop three promising interpretations internally. They should offer meaningfully different readings of the intended experience, rather than cosmetic variations on one idea. Treat them as provisional possibilities, not a closed menu. There is no need to present them to the user at this point.
 

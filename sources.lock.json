@@ -88,7 +88,16 @@
         "skills/rules/type-*",
         "skills/rules/a11y-*"
       ]
+    },
+    {
+      "name": "design-parameter-field-guide",
+      "mode": "original-synthesis-with-linked-sources",
+      "sourceDate": "2026-09-20",
+      "sourceSha256": "1d517ffb027874d77630ae31e4b9ba432cdfe5cb8b705ef590aa86c734a63b0b",
+      "parameterCount": 86,
+      "sourceCount": 44,
+      "manifest": "skills/design-router/references/design-parameters/manifest.json"
     }
   ],
-  "updatedAt": "2026-10-03"
+  "updatedAt": "2026-10-04"
 }

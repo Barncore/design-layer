@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {checkDesignParameters} from '../scripts/check-design-parameters.mjs';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -152,4 +153,35 @@ test('documented style overrides retain their evidence and reason',t=>{
   assert.ok(approved);
   assert.ok(approved.overrideReason);
   assert.ok(approved.overrideSourceRef);
+});
+
+
+test('field guide preserves all parameters and is reachable from working skills', () => {
+  assert.deepEqual(checkDesignParameters(root), {parameters:86, domains:12, sources:44});
+});
+
+function guideSandbox(t) {
+  const s = sandbox(t);
+  fs.cpSync(path.join(root,'skills'), path.join(s.project,'skills'), {recursive:true});
+  return s.project;
+}
+
+test('field guide check rejects a lost parameter even when its domain file remains', t => {
+  const isolated = guideSandbox(t);
+  const file = path.join(isolated,'skills/design-router/references/design-parameters/imagery.md');
+  const text = fs.readFileSync(file,'utf8');
+  const start = text.indexOf('## imagery-03:');
+  const end = text.indexOf('## imagery-04:');
+  assert.ok(start >= 0 && end > start);
+  fs.writeFileSync(file, text.slice(0,start)+text.slice(end));
+  assert.throws(() => checkDesignParameters(isolated), /Missing, duplicate or mismatched parameter/);
+});
+
+test('field guide check rejects a complete catalogue disconnected from execution', t => {
+  const isolated = guideSandbox(t);
+  const file = path.join(isolated,'skills/design-execute/SKILL.md');
+  fs.writeFileSync(file, fs.readFileSync(file,'utf8').replace(
+    '[design parameter field guide](../design-router/references/design-parameters.md)',
+    'design parameter field guide'));
+  assert.throws(() => checkDesignParameters(isolated), /Missing field-guide route from design-execute/);
 });

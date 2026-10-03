@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "title": "Design parameter field guide",
+  "sourceDate": "2026-09-20",
+  "sourceSha256": "1d517ffb027874d77630ae31e4b9ba432cdfe5cb8b705ef590aa86c734a63b0b",
+  "parameterCount": 86,
+  "sourceCount": 44,
+  "domains": [
+    {
+      "id": "composition",
+      "file": "composition.md",
+      "title": "Composition & tension",
+      "parameters": [
+        {
+          "id": "composition-01",
+          "title": "Focal hierarchy"
+        },
+        {
+          "id": "composition-02",
+          "title": "Balance"
+        },
+        {
+          "id": "composition-03",
+          "title": "Grid visibility"
+        },
+        {
+          "id": "composition-04",
+          "title": "Scale collision"
+        },
+        {
+          "id": "composition-05",
+          "title": "Edge pressure"
+        },
+        {
+          "id": "composition-06",
+          "title": "Cropping"
+        },
+        {
+          "id": "composition-07",
+          "title": "Overlap"
+        },
+        {
+          "id": "composition-08",
+          "title": "Rhythm"
+        },
+        {
+          "id": "composition-09",
+          "title": "Figure and ground"
+        }
+      ],
+      "sourceIds": [
+        "jen",
+        "knko",
+        "mouthwash",
+        "firstlook"
+      ]
+    },
+    {
+      "id": "spacing",
+      "file": "spacing.md",
+      "title": "Space & density",
+      "parameters": [
+        {
+          "id": "spacing-01",
+          "title": "Grouping distance"
+        },
+        {
+          "id": "spacing-02",
+          "title": "Density distribution"
+        },
+        {
+          "id": "spacing-03",
+          "title": "Vertical cadence"
+        },
+        {
+          "id": "spacing-04",
+          "title": "Container dependence"
+        },
+        {
+          "id": "spacing-05",
+          "title": "Reading measure"
+        },
+        {
+          "id": "spacing-06",
+          "title": "Optical spacing"
+        },
+        {
+          "id": "spacing-07",
+          "title": "Whitespace role"
+        }
+      ],
+      "sourceIds": [
+        "layout",
+        "jen"
+      ]
+    },
+    {
+      "id": "typography",
+      "file": "typography.md",
+      "title": "Type as a system",
+      "parameters": [
+        {
+          "id": "typography-01",
+          "title": "Skeleton and proportion"
+        },
+        {
+          "id": "typography-02",
+          "title": "Stroke contrast"
+        },
+        {
+          "id": "typography-03",
+          "title": "Width and fit"
+        },
+        {
+          "id": "typography-04",
+          "title": "Optical size"
+        },
+        {
+          "id": "typography-05",
+          "title": "Terminals and ink traps"
+        },
+        {
+          "id": "typography-06",
+          "title": "Softness and irregularity"
+        },
+        {
+          "id": "typography-07",
+          "title": "Tracking and case"
+        },
+        {
+          "id": "typography-08",
+          "title": "Line shape"
+        },
+        {
+          "id": "typography-09",
+          "title": "Role contrast"
+        },
+        {
+          "id": "typography-10",
+          "title": "Typographic behaviour"
+        }
+      ],
+      "sourceIds": [
+        "fraunces",
+        "recursive",
+        "vfonts",
+        "fontsuse",
+        "dinamo",
+        "underware",
+        "variable"
+      ]
+    },
+    {
+      "id": "colour",
+      "file": "colour.md",
+      "title": "Colour relationships",
+      "parameters": [
+        {
+          "id": "colour-01",
+          "title": "Lightness structure"
+        },
+        {
+          "id": "colour-02",
+          "title": "Chroma distribution"
+        },
+        {
+          "id": "colour-03",
+          "title": "Temperature relation"
+        },
+        {
+          "id": "colour-04",
+          "title": "Near-neighbour tension"
+        },
+        {
+          "id": "colour-05",
+          "title": "Surrounding colour"
+        },
+        {
+          "id": "colour-06",
+          "title": "Gradient path"
+        },
+        {
+          "id": "colour-07",
+          "title": "Neutral bias"
+        },
+        {
+          "id": "colour-08",
+          "title": "Semantic palette"
+        }
+      ],
+      "sourceIds": [
+        "albers",
+        "oklab",
+        "oklch",
+        "colourreview",
+        "palmer",
+        "wcag"
+      ]
+    },
+    {
+      "id": "imagery",
+      "file": "imagery.md",
+      "title": "Images & art direction",
+      "parameters": [
+        {
+          "id": "imagery-01",
+          "title": "Subject distance"
+        },
+        {
+          "id": "imagery-02",
+          "title": "Image treatment"
+        },
+        {
+          "id": "imagery-03",
+          "title": "Focal crop"
+        },
+        {
+          "id": "imagery-04",
+          "title": "Sequence"
+        },
+        {
+          "id": "imagery-05",
+          "title": "Type-image relation"
+        },
+        {
+          "id": "imagery-06",
+          "title": "Consistency and rupture"
+        }
+      ],
+      "sourceIds": [
+        "mouthwash",
+        "fontsuse",
+        "monday",
+        "yellow"
+      ]
+    },
+    {
+      "id": "material",
+      "file": "material.md",
+      "title": "Surface, light & depth",
+      "parameters": [
+        {
+          "id": "material-01",
+          "title": "Material metaphor"
+        },
+        {
+          "id": "material-02",
+          "title": "Surface grain"
+        },
+        {
+          "id": "material-03",
+          "title": "Light character"
+        },
+        {
+          "id": "material-04",
+          "title": "Translucency"
+        },
+        {
+          "id": "material-05",
+          "title": "Edge construction"
+        },
+        {
+          "id": "material-06",
+          "title": "Depth cue"
+        },
+        {
+          "id": "material-07",
+          "title": "Imperfection rule"
+        }
+      ],
+      "sourceIds": [
+        "paper",
+        "button",
+        "lusion",
+        "resn",
+        "shaders"
+      ]
+    },
+    {
+      "id": "motion",
+      "file": "motion.md",
+      "title": "Motion & time",
+      "parameters": [
+        {
+          "id": "motion-01",
+          "title": "Easing character"
+        },
+        {
+          "id": "motion-02",
+          "title": "Duration and distance"
+        },
+        {
+          "id": "motion-03",
+          "title": "Origin"
+        },
+        {
+          "id": "motion-04",
+          "title": "Continuity"
+        },
+        {
+          "id": "motion-05",
+          "title": "Choreography"
+        },
+        {
+          "id": "motion-06",
+          "title": "Interruption"
+        },
+        {
+          "id": "motion-07",
+          "title": "Rest and activity"
+        },
+        {
+          "id": "motion-08",
+          "title": "Repetition tolerance"
+        }
+      ],
+      "sourceIds": [
+        "emil",
+        "rauno",
+        "dia",
+        "demo",
+        "story"
+      ]
+    },
+    {
+      "id": "interaction",
+      "file": "interaction.md",
+      "title": "Interaction & agency",
+      "parameters": [
+        {
+          "id": "interaction-01",
+          "title": "Directness"
+        },
+        {
+          "id": "interaction-02",
+          "title": "Resistance and momentum"
+        },
+        {
+          "id": "interaction-03",
+          "title": "Preview and commitment"
+        },
+        {
+          "id": "interaction-04",
+          "title": "Affordance"
+        },
+        {
+          "id": "interaction-05",
+          "title": "Playfulness"
+        },
+        {
+          "id": "interaction-06",
+          "title": "Recovery"
+        },
+        {
+          "id": "interaction-07",
+          "title": "Feedback channel"
+        }
+      ],
+      "sourceIds": [
+        "rauno",
+        "bret",
+        "bartosz",
+        "nicky",
+        "button",
+        "monday"
+      ]
+    },
+    {
+      "id": "navigation",
+      "file": "navigation.md",
+      "title": "Navigation & space",
+      "parameters": [
+        {
+          "id": "navigation-01",
+          "title": "Interface topology"
+        },
+        {
+          "id": "navigation-02",
+          "title": "View switching"
+        },
+        {
+          "id": "navigation-03",
+          "title": "Orientation"
+        },
+        {
+          "id": "navigation-04",
+          "title": "Disclosure depth"
+        },
+        {
+          "id": "navigation-05",
+          "title": "Navigation position"
+        },
+        {
+          "id": "navigation-06",
+          "title": "Mode boundaries"
+        },
+        {
+          "id": "navigation-07",
+          "title": "Alternate path"
+        }
+      ],
+      "sourceIds": [
+        "knko",
+        "bruno",
+        "active",
+        "nutshell",
+        "tldraw",
+        "squarespace"
+      ]
+    },
+    {
+      "id": "narrative",
+      "file": "narrative.md",
+      "title": "Sequence & revelation",
+      "parameters": [
+        {
+          "id": "narrative-01",
+          "title": "Pacing"
+        },
+        {
+          "id": "narrative-02",
+          "title": "Reveal logic"
+        },
+        {
+          "id": "narrative-03",
+          "title": "Control of time"
+        },
+        {
+          "id": "narrative-04",
+          "title": "Overview and detail"
+        },
+        {
+          "id": "narrative-05",
+          "title": "Tone shifts"
+        },
+        {
+          "id": "narrative-06",
+          "title": "Ending"
+        }
+      ],
+      "sourceIds": [
+        "pudding",
+        "story",
+        "bret",
+        "nicky",
+        "squarespace",
+        "firstlook"
+      ]
+    },
+    {
+      "id": "generative",
+      "file": "generative.md",
+      "title": "Rules & controlled surprise",
+      "parameters": [
+        {
+          "id": "generative-01",
+          "title": "Rule visibility"
+        },
+        {
+          "id": "generative-02",
+          "title": "Order and entropy"
+        },
+        {
+          "id": "generative-03",
+          "title": "Geometry family"
+        },
+        {
+          "id": "generative-04",
+          "title": "Input relationship"
+        },
+        {
+          "id": "generative-05",
+          "title": "Reproducibility"
+        },
+        {
+          "id": "generative-06",
+          "title": "Semantic connection"
+        }
+      ],
+      "sourceIds": [
+        "cohere",
+        "entropy",
+        "modyfi",
+        "shaders",
+        "underware",
+        "demo"
+      ]
+    },
+    {
+      "id": "adaptation",
+      "file": "adaptation.md",
+      "title": "Adaptation & limits",
+      "parameters": [
+        {
+          "id": "adaptation-01",
+          "title": "Recomposition"
+        },
+        {
+          "id": "adaptation-02",
+          "title": "Input mode"
+        },
+        {
+          "id": "adaptation-03",
+          "title": "Text variability"
+        },
+        {
+          "id": "adaptation-04",
+          "title": "Reduced effects"
+        },
+        {
+          "id": "adaptation-05",
+          "title": "Performance character"
+        }
+      ],
+      "sourceIds": [
+        "android",
+        "apple",
+        "layout",
+        "wcag",
+        "story"
+      ]
+    }
+  ],
+  "sourceIds": [
+    "knko",
+    "yellow",
+    "resn",
+    "squarespace",
+    "lusion",
+    "active",
+    "bruno",
+    "mouthwash",
+    "monday",
+    "dia",
+    "demo",
+    "entropy",
+    "modyfi",
+    "cohere",
+    "paper",
+    "jen",
+    "layout",
+    "fontsuse",
+    "vfonts",
+    "fraunces",
+    "recursive",
+    "dinamo",
+    "underware",
+    "variable",
+    "albers",
+    "oklab",
+    "oklch",
+    "colourreview",
+    "palmer",
+    "firstlook",
+    "rauno",
+    "emil",
+    "button",
+    "bret",
+    "nicky",
+    "nutshell",
+    "pudding",
+    "story",
+    "bartosz",
+    "shaders",
+    "tldraw",
+    "wcag",
+    "apple",
+    "android"
+  ]
+}

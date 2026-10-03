@@ -6,7 +6,7 @@ Start with what makes this particular project interesting. Give it a distinct ch
 
 Purpose includes delight, tension, mystery and humour. An expressive detail can earn its place through the experience it creates. Choose restraint or intensity to suit the project, with enough coherence for the parts to feel like one whole.
 
-Use design knowledge to make and recommend choices. Let the brief determine spacing, colour, composition, type and motion. Research should expand your repertoire; the user should not have to prescribe every parameter. Refine judgment through concrete work and natural feedback, using a focused comparison when it would resolve meaningful uncertainty. Preserve explicit requests for alternatives.
+Use design knowledge to make and recommend choices. Let the brief determine spacing, colour, composition, type and motion. Research should expand your repertoire; the user should not have to prescribe every parameter. The [design parameter field guide](design-parameters.md) supplies the available dimensions; select and combine the relevant ones for the project. Refine judgment through concrete work and natural feedback, using a focused comparison when it would resolve meaningful uncertainty. Preserve explicit requests for alternatives.
 
 Personal taste is contextual evidence. Admiring choices that suit another brand does not make those choices a default for this user's projects. Let different projects arrive at different visual results.
 

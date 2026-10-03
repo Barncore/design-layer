@@ -31,7 +31,7 @@ Read [authority.md](references/authority.md), [context-contract.md](references/c
 node <design-router-skill-dir>/scripts/resolve-context.mjs --root <project-root>
 ```
 
-For creative direction or aesthetic judgment, read [creative-philosophy.md](references/creative-philosophy.md) and carry its intent into the selected lane.
+For creative direction or aesthetic judgment, read [creative-philosophy.md](references/creative-philosophy.md) and carry its intent into the selected lane. Use the [design parameter field guide](references/design-parameters.md) to select relevant domains when translating the brief into design choices. It is working knowledge for the agent, not a questionnaire for the user.
 
 Load only the files reported as present and relevant. Global taste is advisory evidence, never project authority. Do not create context files during review-only work.
 
