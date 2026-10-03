@@ -14,6 +14,8 @@ A new website or app direction can enter the intent interview. The user describe
 
 `design-execute` preserves the approved system and implements the relevant states and interactions. Supporting references supply mechanisms when they help: typography, composition, motion, platform adaptation and fine craft. The model still decides how to apply them.
 
+The shared [repertoire](../skills/design-explore/references/component-repertoire.md) offers optional discovery through 21st.dev and Designeer. A task-specific question leads to catalogue candidates, then original examples or primary documentation, and a reasoned choice in the existing brief. Designeer can be queried through browser tools when available; readable links preserve the ordinary browsing route. Catalogue contents remain external and introduce no runtime dependency.
+
 Exploration and execution share an [expressive interaction reference](../skills/design-explore/references/expressive-interaction.md). It connects intended material and spatial behaviour to techniques and rendering choices. It is loaded when those qualities could define the experience, including when the brief implies them without naming a technology. Motion restraint is contextual: a frequent-use task interface and an immersive experience have different needs.
 
 An image that checked understanding is different from an approved implementation target. Execution follows the confirmed intent and selected relationships. Literal image fidelity becomes a requirement only when the user chooses that role for the reference.

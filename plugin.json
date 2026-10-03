@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "design-layer",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A project-led design workflow for Codex: discover intent, explore directions, build, review and learn from explicit feedback.",
   "repository": "https://github.com/Barncore/design-layer",
   "license": "Apache-2.0",

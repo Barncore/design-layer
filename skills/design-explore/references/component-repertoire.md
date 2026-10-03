@@ -22,8 +22,23 @@ Their design value depends on how they change perception, attention, atmosphere 
 
 For material behaviour, spatial interaction, image smearing, chromatic fringing and rendering choices including WebGL and Three.js, read [expressive-interaction.md](expressive-interaction.md).
 
+## Broader discovery with Designeer
+
+[Designeer](https://www.designeer.xyz/) is an optional directory spanning design examples, tools, learning material and practitioners. Its categories provide routes beyond a component catalogue; the following are useful starting points observed on 2026-10-03, not a complete or fixed inventory.
+
+| Need in the current task | Where to look | What to bring back |
+| --- | --- | --- |
+| Develop a direction or make an idea concrete for discussion | Inspiration, interface, type and color | An original example and the relationship that could serve the brief |
+| Find a technique for an intended experience | Motion, shaders, 3D and components | Demonstrations and primary documentation to compare with the existing stack |
+| Understand how an interaction achieves its effect | Reading and the people directory | An explanation or example of timing, gesture response, hierarchy or material behaviour |
+| Investigate a specific weakness in finished work | Relevant examples from those categories | A focused comparison of the quality at issue, such as interruption or spatial continuity |
+
+The site exposed browser WebMCP queries for sections, keyword search, section contents and practitioners during inspection. If the host provides that capability, discover the site's currently available tools and use the relevant queries; otherwise follow its ordinary browser links. This integration supplies source guidance, not a bundled connector or a separately verified MCP server.
+
 ## Using reference catalogues
 
-Use 21st.dev as an optional source of current examples, previews and implementation references. Browser access is enough for discovery; this reference does not require its skill, MCP or packages. Search when a concrete example would improve an idea or answer an implementation question. Extend the search beyond this provider when appropriate.
+Consult 21st.dev or Designeer when a concrete example would improve an idea, clarify a tradeoff or answer an implementation question. Search from the project's intended experience and extend beyond either provider when useful. Ordinary browser access is sufficient for discovery; no catalogue-specific skill, package or service is required.
+
+Open promising original examples and primary documentation before adopting an approach. Catalogue descriptions are discovery leads. Identify the mechanism that matters to the project, and distinguish observed behaviour from an inferred implementation. Carry the selected source URLs, why the mechanism fits and consequential tradeoffs into the existing project brief so later work can understand the decision without repeating the search. When the task is read-only, include that reasoning in the response.
 
 Borrow the useful mechanism and adapt it to the project's identity, content and existing stack. Decide whether to implement it directly, reuse a project component or retrieve suitable third-party code. Check the actual dependencies and licence when reusing code. A catalogue listing does not establish suitability, accessibility or performance for the current project. Verify those in the resulting work through the existing Design Layer workflow.

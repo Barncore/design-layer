@@ -22,6 +22,7 @@ flowchart TD
     O --> B
     O --> X
     K[21st.dev catalogue] -. optional reference .-> X
+    S[Designeer directory] -. optional discovery .-> X
     N[Apple and Android documentation] -. platform reference .-> X
 ```
 
@@ -56,6 +57,8 @@ These choices aim to reduce premature convergence, generic styling and accumulat
 ## Added repertoire and adapters
 
 Fine craft, transformation and native-platform references expand what the agent can consider when the brief calls for it. They do not apply every technique to every project. The 21st.dev reference supplies category names and links for discovery; no component implementation is bundled or mandated.
+
+[Designeer](https://www.designeer.xyz/) adds an optional route to inspiration, tools, learning material and practitioners. Its public catalogue and browser WebMCP queries were inspected on 2026-10-03. The integration provides task-to-category guidance and a browser fallback; it does not copy the catalogue, bundle its tools or independently endorse listed resources. Chosen examples and implementation claims are checked at their original sources.
 
 The expressive interaction reference is Design Layer-authored decision guidance connecting material and spatial intent to rendering techniques. It links MDN and Three.js documentation for technical implementation; it bundles no graphics library, example code or third-party visual identity.
 
