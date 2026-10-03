@@ -18,6 +18,14 @@ The guidance combines project-specific orchestration with selected, rewritten me
 | [Vercel Labs agent-skills](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62) | Reference influence: concise, source-located interface review | MIT is declared in the [pinned README](https://github.com/vercel-labs/agent-skills/blob/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/README.md). That revision has no standalone licence file. No Vercel implementation is bundled. |
 | [Paul Bakaus's Impeccable](https://github.com/pbakaus/impeccable/tree/a075d89bdbe60b2b00220cb0527fb5091e84215e) | Product/design context separation, transformation lenses and optional tool integration | [Original Apache 2.0 text](licenses/impeccable.txt) and [upstream notices](licenses/impeccable-NOTICE.md) |
 
+The 0.4.0 craft expansion also adapts selected principles from these separately pinned sources:
+
+| Source | Contribution | Licence evidence |
+| --- | --- | --- |
+| [Emil Kowalski: apple-design, prototype and animation-vocabulary](https://github.com/emilkowalski/skills/tree/e8a175de22ae1e49370fc144c1f3bb9aeedf988d/skills) | Direct manipulation, realistic interactive comparisons and descriptive motion vocabulary | [Original MIT text](licenses/emilkowalski-craft-expansion.txt) |
+| [Jakub Krehel: OKLCH](https://github.com/jakubkrehel/oklch-skill/tree/0e81f040e16d48fcc61d3e1b7ea548542371321f) | Palette construction, gamut and theme relationships, with contrast guidance checked against W3C | [Original MIT text](licenses/jakubkrehel-oklch.txt) |
+| [Raphael Salaja: User Interface Wiki](https://github.com/raphaelsalaja/userinterface-wiki/tree/256a954080c8bcf1b1ceb1e2a4079d1f24cf593a) | Selected principles for measurement, lifecycle, sound, prefetch, icon and type craft | [Original MIT text](licenses/userinterface-wiki.txt) |
+
 Adaptations narrow the sources to the current brief, separate subjective advice from objective defects, and add Design Layer's own routing, evidence and feedback boundaries. Exact recorded revisions are in [sources.lock.json](sources.lock.json).
 
 ## Bundled executable

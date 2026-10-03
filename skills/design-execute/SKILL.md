@@ -26,6 +26,9 @@ Load additional references only when relevant:
 - [component-repertoire.md](../design-explore/references/component-repertoire.md) when a component or effect reference would help realise the brief.
 - [transformations.md](references/transformations.md) to interpret feedback such as bolder, quieter or more distinctive.
 - [craft-details.md](references/craft-details.md) for fine type, spacing, colour, material and interaction decisions.
+- [color-systems.md](references/color-systems.md) when authoring palette scales, semantic colour roles or themes.
+- [direct-manipulation.md](references/direct-manipulation.md) for drag, swipe, snapping and interruptible gesture-driven motion.
+- [interaction-craft.md](references/interaction-craft.md) for measured containers, exit lifecycles, shared-element identity, optional sound, prefetching or icon morphs.
 - [native-platforms.md](references/native-platforms.md) for iOS, iPadOS or Android work.
 
 ## Decision rules

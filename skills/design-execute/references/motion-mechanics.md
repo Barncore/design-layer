@@ -16,6 +16,8 @@ By default, reserve expressive motion for occasional moments in frequent-use tas
 6. Gate hover motion with hover/pointer capability.
 7. Respect `prefers-reduced-motion` with a gentler, less spatial alternative.
 
+For gesture-driven motion, read [direct-manipulation.md](direct-manipulation.md). For measured containers or exit lifecycle problems, use the relevant section of [interaction-craft.md](interaction-craft.md).
+
 Inspect enter, interruption, reversal, and exit. A beautiful entrance with a confused exit is still confused.
 
 This reference adapts general mechanics from the pinned Emil Kowalski skills; values should first reuse the project's existing motion tokens.

@@ -37,7 +37,9 @@ Good axes include density, contrast, expressive intensity, spatial depth, inform
 
 Label variants by meaningful position, for example `quiet / balanced / vivid`, not `A / B / C` alone. Keep all non-axis variables fixed as tightly as the medium allows.
 
-Read [variant-protocol.md](references/variant-protocol.md). For motion axes, also read [motion-language.md](references/motion-language.md).
+Read [variant-protocol.md](references/variant-protocol.md) for comparison and optional full-size interactive prototypes. For motion axes or translating a described effect into a technique, read [motion-language.md](references/motion-language.md).
+
+For either exploration mode, use the live-comparison guidance in [variant-protocol.md](references/variant-protocol.md) when behaviour or realistic scale is the uncertainty.
 
 ## Evaluation
 

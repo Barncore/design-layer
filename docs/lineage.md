@@ -63,6 +63,8 @@ Fine craft, transformation and native-platform references expand what the agent 
 
 [Recent](https://recent.design/) adds optional curated visual examples, creator and source links, and specialist galleries. Its public feed, example metadata, website filtering and app-icon gallery were inspected on 2026-10-03. No media or third-party skill is bundled through this entry.
 
+The 0.4.0 craft expansion separately pins Emil's apple-design, prototype and animation-vocabulary skills, Jakub's OKLCH skill, and selected User Interface Wiki references. It adds conditional colour-system and gesture references, full-size interactive comparison guidance, motion terminology, and focused lifecycle, measurement, sound, prefetch and icon/type principles. It preserves source licences and earlier revision pins. Fixed aesthetics, mandatory libraries, glossary response restrictions and universal animation prescriptions were not adopted. The WCAG large-text units in the OKLCH source were corrected against W3C rather than inherited.
+
 The expressive interaction reference is Design Layer-authored decision guidance connecting material and spatial intent to rendering techniques. It links MDN and Three.js documentation for technical implementation; it bundles no graphics library, example code or third-party visual identity.
 
 The optional Impeccable adapter translates tool output into Design Layer's review categories. The underlying executable remains unmodified. A separate local live-edit workflow checks source spans, preserves recoverable snapshots and documents the boundaries of the Windows pilot.

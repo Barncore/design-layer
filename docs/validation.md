@@ -31,6 +31,12 @@ An October 2026 read-only model pass used the expressive interaction guidance fo
 
 This checks reference retrieval and planning in a small set of cases. It does not establish an improvement over the previous instructions, rendered quality, accessibility or device performance. No UI was built for this check.
 
+## Craft expansion planning check
+
+The 0.4.0 references received an independent read-only planning pass on three synthetic requests: improve an existing HSL dashboard's dark theme without migration; compare crisp and elastic swipeable sheets at realistic size; and diagnose a notification's lingering hit target and animated-height jitter. The pass retrieved the intended references, retained the existing system, and distinguished gesture, measurement and exit-lifecycle concerns. It found no material routing failure in those cases.
+
+This is bounded retrieval and planning evidence, not a built prototype, measured contrast result, runtime repair or proof of better design judgment. Package checks and the existing helper tests remain separate from those claims.
+
 ## Limits that remain
 
 - The three-round interview is a collaboration default, not an experimentally optimized question count.

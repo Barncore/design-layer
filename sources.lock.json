@@ -48,7 +48,47 @@
       "license": "Apache-2.0",
       "mode": "bundled-unmodified-engine",
       "provenance": "runtime/impeccable/provenance.json"
+    },
+    {
+      "name": "emilkowalski-craft-expansion",
+      "repository": "https://github.com/emilkowalski/skills",
+      "commit": "e8a175de22ae1e49370fc144c1f3bb9aeedf988d",
+      "license": "MIT",
+      "mode": "selected-principles-adapted",
+      "reviewedPaths": [
+        "skills/apple-design/SKILL.md",
+        "skills/prototype/SKILL.md",
+        "skills/animation-vocabulary/SKILL.md"
+      ]
+    },
+    {
+      "name": "jakubkrehel-oklch",
+      "repository": "https://github.com/jakubkrehel/oklch-skill",
+      "commit": "0e81f040e16d48fcc61d3e1b7ea548542371321f",
+      "license": "MIT",
+      "mode": "selected-principles-adapted",
+      "reviewedPaths": [
+        "skills/oklch-skill"
+      ]
+    },
+    {
+      "name": "userinterface-wiki",
+      "repository": "https://github.com/raphaelsalaja/userinterface-wiki",
+      "commit": "256a954080c8bcf1b1ceb1e2a4079d1f24cf593a",
+      "license": "MIT",
+      "mode": "selected-principles-adapted",
+      "reviewedPaths": [
+        "skills/rules/container-*",
+        "skills/rules/presence-*",
+        "skills/rules/context-*",
+        "skills/rules/envelope-*",
+        "skills/rules/prefetch-*",
+        "skills/rules/transition-name-*",
+        "skills/rules/morphing-*",
+        "skills/rules/type-*",
+        "skills/rules/a11y-*"
+      ]
     }
   ],
-  "updatedAt": "2026-10-01"
+  "updatedAt": "2026-10-03"
 }
