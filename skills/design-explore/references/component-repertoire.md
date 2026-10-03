@@ -35,9 +35,15 @@ For material behaviour, spatial interaction, image smearing, chromatic fringing 
 
 The site exposed browser WebMCP queries for sections, keyword search, section contents and practitioners during inspection. If the host provides that capability, discover the site's currently available tools and use the relevant queries; otherwise follow its ordinary browser links. This integration supplies source guidance, not a bundled connector or a separately verified MCP server.
 
+## Visual examples with Recent
+
+[Recent](https://recent.design/) is an optional source of curated design work and individual visual studies. Use it when a concrete reference would help develop a direction, discuss an intended quality or investigate a focused critique. Its design feed spans interfaces, branding, typography, motion, illustration and other disciplines; dedicated [websites](https://recent.design/websites), [app icons](https://recent.design/app-icons), [app screenshots](https://recent.design/app-store-screenshots) and [OG images](https://recent.design/og-images) galleries offer more specific routes.
+
+Browse by the subject or quality relevant to the brief. Individual entries can include a demonstration, creator, original-source link and style or interaction tags. Open the original work when the question depends on its actual behaviour. A recording can show an effect without establishing its implementation or production qualities. Explain the specific relationship or behaviour worth adapting; liking an example does not make its whole visual identity the project target. Use the shared source and brief guidance below. Ordinary browsing is the verified access route.
+
 ## Using reference catalogues
 
-Consult 21st.dev or Designeer when a concrete example would improve an idea, clarify a tradeoff or answer an implementation question. Search from the project's intended experience and extend beyond either provider when useful. Ordinary browser access is sufficient for discovery; no catalogue-specific skill, package or service is required.
+Consult 21st.dev, Designeer or Recent when a concrete example would improve an idea, clarify a tradeoff or answer an implementation question. Search from the project's intended experience and extend beyond these providers when useful. Ordinary browser access is sufficient for discovery; no catalogue-specific skill, package or service is required.
 
 Open promising original examples and primary documentation before adopting an approach. Catalogue descriptions are discovery leads. Identify the mechanism that matters to the project, and distinguish observed behaviour from an inferred implementation. Carry the selected source URLs, why the mechanism fits and consequential tradeoffs into the existing project brief so later work can understand the decision without repeating the search. When the task is read-only, include that reasoning in the response.
 
